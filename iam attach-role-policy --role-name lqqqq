@@ -1,0 +1,21 @@
+{
+    "Role": {
+        "Path": "/",
+        "RoleName": "lab-edu-role-codedeploy",
+        "RoleId": "AROAU6TNGANIY6OBZ2BHU",
+        "Arn": "arn:aws:iam::340605141841:role/lab-edu-role-codedeploy",
+        "CreateDate": "2025-07-25T00:25:26+00:00",
+        "AssumeRolePolicyDocument": {
+            "Version": "2012-10-17",
+            "Statement": [
+                {
+                    "Effect": "Allow",
+                    "Principal": {
+                        "Service": "codedeploy.amazonaws.com"
+                    },
+                    "Action": "sts:AssumeRole"
+                }
+            ]
+        }
+    }
+}
